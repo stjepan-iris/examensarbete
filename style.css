@@ -1,0 +1,261 @@
+/* css för hela projektet */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.searchFormContainer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1% 0% 5% 0%;
+}
+.formInputsContainer{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 2vh;
+    width: 12%;
+    margin: 1% 0% 1% 0%;
+    border-bottom: 1px solid black;
+    background-color: gray;
+    text-align: center;
+}
+::placeholder {
+    color: white;
+    opacity: 0.9;
+  }
+.searchBtn{
+    width: 6%;
+    height: 2vh;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 3px 3px -1px black;
+    background-color: lightgray;
+}
+.searchResults{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+.carContainter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.singleCarContainter{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.carImg{
+    height: 40vh;
+    border-radius: 10px 10px 0px 0px;
+}
+.singleCarInfoContainter{
+    display: flex;
+    flex-flow: column;
+    margin: 0% 0% 2% 0%;
+    padding: 3% 0% 0% 35%;
+}
+.moreInfoBtn{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    width: 20%;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0% 0% 0% 40%;
+}
+.loginContainer{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    background-color: white;
+    width: 15%;
+    height: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.userInput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 2%;
+}
+.passInput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 2%;
+}
+.loginInput{
+    border: none;
+    width: 22%;
+    margin: 3%;
+    background-color: lightgray;
+    color: black;
+    height: 2vh;
+}
+.singelCarImgWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 0% 3% 0%;
+    flex-wrap: wrap;
+}
+.singleImgContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+.singlePostImg{
+    height: 40vh;
+    margin: 1%;
+    width: 30vw;
+}
+.deletImgBtn{
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    width: 16%;
+    text-align: center;
+    border-radius: 6px;
+}
+.singleCarPageInfoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.singleCarPageInfo{
+    display: flex;
+    flex-flow: column;
+    background-color: lightgray;
+    width: 25vw;
+    height: 28vh;
+    padding: 2%;
+    border-radius: 8px;
+}
+.singelCarBtns{
+    display: flex;
+    margin: 10% 0% 0% 0%;
+}
+.singelBtn{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0% 2% 0% 0%;
+    width: 20%;
+}
+.addCarFormContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addCarForm{
+    padding: 2%;
+    display: flex;
+    background-color: lightgray;
+    flex-flow: column;
+    width: 35%;
+    height: 50vh; 
+    border-radius: 8px;
+}
+.carInfoInputs{
+    margin: 0.8%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: lightgray;
+}
+::placeholder {
+    color: black;
+    opacity: 0.9;
+  }
+.addCarBtn{
+    width: 15%;
+    border: none;
+    margin-top: 9%;
+    margin-left: 44%;
+    background-color: gray;
+    height: 2vh;
+    border-radius: 4px;
+}
+.backFromForm{
+    width: 15%;
+    border: none;
+    margin-top: 4%;
+    background-color: gray;
+    height: 2vh;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+.headerContainer{
+    margin: 4% 0% 4% 0%;
+    border-bottom: 1px solid black;
+    height: 8vh;
+}
+.loggoContainer{
+    display: flex;
+    justify-content: center;
+}
+.loggo{
+    font-size: 45px;
+}
+.logginContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0% 4% 0% 0%;
+}
+.logginBtn{
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 5%;
+    text-align: center;
+    height: 2vh;
+}
+.adminBtnContainer{
+    display: flex;
+    flex-flow: row-reverse;
+    padding-right: 3%;
+}
+.adminBtns{
+    margin: 0% 2% 0% 0%;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 4px;
+    width: 3%;
+    text-align: center; 
+}
